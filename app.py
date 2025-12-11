@@ -1,5 +1,10 @@
 # app.py
 import streamlit as st
+import nltk
+
+# Ensure required NLTK resources are downloaded
+nltk.download("punkt")
+nltk.download("punkt_tab")
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lsa import LsaSummarizer
