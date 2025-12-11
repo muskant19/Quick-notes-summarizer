@@ -13,3 +13,7 @@ A simple Streamlit app that helps you quickly summarize text notes into concise,
 ---
 
 ## 📂 Project Structure
+## 🌐 Deployment
+This app is deployed on **Streamlit Cloud**.  
+You can run it directly here:  
+👉 [Quick Notes Summarizer Live App](https://quick-notes-summarizer.streamlit.app)
